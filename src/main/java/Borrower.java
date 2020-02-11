@@ -13,8 +13,9 @@ public class Borrower {
         return this.borrowedBooks.size();
     }
 
-//    public void borrowBook(Book book1,){
-//
-//
-//    }
+    public void borrowBook(Library library, Book book){
+        if(library.lendBook(book) != null) {
+            this.borrowedBooks.add(library.lendBook(book));
+        }
+    }
 }
