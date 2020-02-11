@@ -42,4 +42,21 @@ public class LibraryTest {
         library.addBook(book3);
         assertEquals(2, library.countBooks());
     }
+
+    @Test
+    public void can_check_if_it_has_book(){
+        library.addBook(book1);
+        assertEquals(true, library.hasBookInStock(book1));
+    }
+
+    @Test
+    public void can_check_if_it_has_not_got_a_book(){
+        library.addBook(book1);
+        assertEquals(false, library.hasBookInStock(book2));
+    }
+
+    @Test
+    public void can_lend_book_in_stock(){
+        
+    }
 }

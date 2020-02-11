@@ -19,10 +19,10 @@ public class BorrowerTest {
         assertEquals(0, borrower.countBorrowedBooks());
     }
 
-    @Test
-    public void can_borrow_a_book(){
-        borrower.borrowBook(book1);
-        assertEquals(1, borrower.countBorrowedBooks());
-    }
+//    @Test
+//    public void can_borrow_a_book(){
+//        borrower.borrowBook(book1);
+//        assertEquals(1, borrower.countBorrowedBooks());
+//    }
 
 }

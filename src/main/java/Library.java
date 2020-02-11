@@ -24,4 +24,7 @@ public class Library {
     }
 
 
+    public boolean hasBookInStock(Book book) {
+        return this.books.contains(book);
+    }
 }
