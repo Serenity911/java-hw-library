@@ -63,4 +63,13 @@ public class LibraryTest {
         assertEquals(1, library.countBooks());
         assertEquals(false, library.hasBookInStock(book1));
     }
+
+    @Test
+    public void cannot_lend_book_if_not_in_stock(){
+        library.addBook(book2);
+        library.lendBook(book1);
+        assertEquals(1, library.countBooks());
+        assertEquals(false, library.hasBookInStock(book1));
+        assertEquals(null, library.lendBook(book1));
+    }
 }
