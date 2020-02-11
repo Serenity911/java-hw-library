@@ -57,6 +57,10 @@ public class LibraryTest {
 
     @Test
     public void can_lend_book_in_stock(){
-        
+        library.addBook(book1);
+        library.addBook(book2);
+        library.lendBook(book1);
+        assertEquals(1, library.countBooks());
+        assertEquals(false, library.hasBookInStock(book1));
     }
 }

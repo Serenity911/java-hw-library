@@ -27,4 +27,14 @@ public class Library {
     public boolean hasBookInStock(Book book) {
         return this.books.contains(book);
     }
+
+    public Book lendBook(Book book) {
+        Book lendedBook;
+        if(hasBookInStock(book)){
+            this.books.remove(book);
+            lendedBook = book;
+            return lendedBook;
+        }
+        return null;
+    }
 }
