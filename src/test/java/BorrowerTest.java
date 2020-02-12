@@ -30,10 +30,7 @@ public class BorrowerTest {
         assertEquals(1, borrower.countBorrowedBooks());
         assertEquals(0, library.countBooks());
         assertEquals(true, borrower.hasBorrowed(book1));
-
     }
-
-
 
     @Test
     public void cannot_borrow_a_book_if_not_in_stock(){

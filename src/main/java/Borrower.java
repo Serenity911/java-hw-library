@@ -18,8 +18,15 @@ public class Borrower {
     }
 
     public void borrowBook(Library library, Book book){
-        if(library.lendBook(book) != null) {
+        if(library.hasBookInStock(book)) {
             this.borrowedBooks.add(library.lendBook(book));
         }
     }
+
+//    the way it is done below won't work correctly. The book is removed within the if evaluation therefore the value that is passed into borrowed books is null - which increases its length of 1.
+//    public void borrowBook(Library library, Book book){
+//        if(library.lendBook(book) != null) {
+//            this.borrowedBooks.add(library.lendBook(book));
+//        }
+//    }
 }
