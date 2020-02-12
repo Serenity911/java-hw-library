@@ -13,6 +13,10 @@ public class Borrower {
         return this.borrowedBooks.size();
     }
 
+    public boolean hasBorrowed(Book book) {
+        return this.borrowedBooks.contains(book);
+    }
+
     public void borrowBook(Library library, Book book){
         if(library.lendBook(book) != null) {
             this.borrowedBooks.add(library.lendBook(book));

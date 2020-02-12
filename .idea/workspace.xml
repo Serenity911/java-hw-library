@@ -4,9 +4,10 @@
     <list default="true" id="e803333d-8e2c-43c8-940e-a71cb4200e2c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Borrower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Borrower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Library.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BorrowerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BorrowerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Borrower.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Borrower.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BorrowerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BorrowerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Library.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,8 +103,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.BorrowerTest.can_borrow_a_book_in_stock" />
-        <item itemvalue="JUnit.LibraryTest" />
         <item itemvalue="JUnit.BorrowerTest" />
+        <item itemvalue="JUnit.LibraryTest" />
         <item itemvalue="JUnit.BorrowerTest.cannot_borrow_a_book_if_not_in_stock" />
         <item itemvalue="JUnit.LibraryTest.cannot_lend_book_if_not_in_stock" />
       </list>

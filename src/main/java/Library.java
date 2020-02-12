@@ -29,11 +29,11 @@ public class Library {
     }
 
     public Book lendBook(Book book) {
-        Book lendedBook;
+        Book lentBook;
         if(hasBookInStock(book)){
             this.books.remove(book);
-            lendedBook = book;
-            return lendedBook;
+            lentBook = book;
+            return lentBook;
         }
         return null;
     }
